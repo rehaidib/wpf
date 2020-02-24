@@ -4,7 +4,7 @@ Thank you for contributing to **WPF for .NET Core!**  We ask that before you sta
 
 #### What types of pull requests will be accepted before WPF for .NET Core General Availability in September?
 
-WPF for .NET Core is seeking functional and performance parity with .NET Framework to offer customers a direct porting path from .NET Framework. Given this, only the following will be considered:
+WWW for .NET Core is seeking functional and performance parity with .NET Framework to offer customers a direct porting path from .NET Framework. Given this, only the following will be considered:
 
 *	Bug fixes that are not reproducible on .NET Framework
 *	IL-neutral formatting changes done by Roslyn analyzers and automatic code fixers
@@ -46,7 +46,7 @@ All other changes will be tagged as 'future' and postponed until after .NET Core
 
 ### All pull requests must have an issue
 
-1. If any guidance is required, please read the [contribution guidelines](contributing.md) and/or submit an issue requesting clarification. 
+1. If any guidance is required, please read the [contribution guidelines](contributing.md) and/or submit an issue requesting clarification.
 
 2. Review the pre-GA acceptance table and open a new issue.  
 
@@ -54,24 +54,24 @@ All other changes will be tagged as 'future' and postponed until after .NET Core
 
 4. If the issue meets the pre-GA acceptance criteria, the contributor will be assigned a WPF developer to help with the submission process.  The issue will be assigned as a work item to the WPF developer.
 
-5. The issue will be discussed with community members and WPF developers to understand the problem and review possible solutions. 
+5. The issue will be discussed with community members and WPF developers to understand the problem and review possible solutions.
 
 6. When the a solution has been agreed upon, implement and **validate the change locally**.
     > Please follow the testing requirements [Developer Guide](developer-guide.md).
-    
+
     > Verify your change works. Create and test the updated feature area locally with a WPF test application compiled against a version of the WPF Framework that contains your changes.  See the [Developer Guide](developer-guide.md) for instructions on testing against local builds.
-    
+
 7. When the code is completed and has been verified locally, the contributor should submit a pull request that references the associated issue.  Please complete the Contributor License Agreement if required.
 
 
 8. GitHub checks will run against each new commit
     - *GitHub Checks*
-    
+
         - License Check
         - Style and Formatting
         - Commit Message
         - PR Build with Roslyn analyzers enabled
-    
+
 9. When the PR has been submitted and all GitHub checks pass (no build breaks or other issues) community members and WPF developers will review the code.
 
 10. Additional internal testing may be performed by WPF developers if the change is determined to be high risk.
@@ -80,7 +80,7 @@ All other changes will be tagged as 'future' and postponed until after .NET Core
 
 12. After the PR has been signed off, a WPF developer will manually squash and merge the PR.
 
-#### At this point, the change is in master.  Further internal testing will be performed.  If there are no regressions, the change will be included in the next milestone release. 
+#### At this point, the change is in master.  Further internal testing will be performed.  If there are no regressions, the change will be included in the next milestone release.
 
 13. The internal developer regression test loop will be run against a build that includes the merged changes from the PR.
 
